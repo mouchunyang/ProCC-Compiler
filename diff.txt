@@ -1,0 +1,1 @@
+Files log.txt and expected/excep09-log.txt are identical

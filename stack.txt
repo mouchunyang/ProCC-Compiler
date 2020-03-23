@@ -1,0 +1,4 @@
+pc: 0 Stack: 
+pc: 1 Stack: 
+pc: 2 Stack: 
+pc: 3 Stack: 

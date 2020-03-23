@@ -1,2 +1,10 @@
-# ProCC-Compiler
-This is a compiler that is able to convert from ProCC high level language into the ITP-11 assembly with a self-written virtual machine.
+# ITP 435 PA7 - Fall 2019 #
+
+### EDIT BELOW ###
+Name: Tommy Trojan
+
+Email: ttrojan@usc.edu
+
+Section: [M/W or T/TH]
+
+Platform: [PC/MAC]

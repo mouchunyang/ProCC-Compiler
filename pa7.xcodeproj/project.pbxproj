@@ -1,0 +1,1287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		446AF86391354B0CA2AB922B /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 845647A4B6C840BF9F813DBE /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				50DFE3C28C344644A27F1175 /* CMake Rules */,
+			);
+			dependencies = (
+				760E4D550CC1424B96971CD6 /* PBXTargetDependency */,
+				7AA128EF9EE546998AEFF79A /* PBXTargetDependency */,
+				96DCFABC0516400EA2868138 /* PBXTargetDependency */,
+				99CD4F43A5904291BB688E44 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		73965A9C4F0C4B4889F7A7C8 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 574D9216D6F247EEA3290C55 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				703FCF335F0B41DB8A784016 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		653784D386A54D8E9832B305 /* StudentTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1BC9037ECA564E53BCEDD379 /* StudentTests.cpp */; };
+		9ED304920C7C4399A60EBB53 /* Catch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3F725EC610C4450B5A3EC2A /* Catch.cpp */; };
+		C9FD41A5A73942C28ACA2682 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39A89386DA5D4C989608E568 /* Main.cpp */; };
+		F03DC1440FD94FB89897EAB7 /* SrcMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C6154C2D73346498AF090DF /* SrcMain.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0ED80D808E2F4269AA559F16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E196AC5F5AD402FADD03DB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42BE47981BC3428C998AF7D1;
+			remoteInfo = main;
+		};
+		50FEF33E599C423B9E3D90FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E196AC5F5AD402FADD03DB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 171D85C8A9D5434FBBAF9CBF;
+			remoteInfo = src;
+		};
+		54FBD713B74D42A5A7EDC01D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E196AC5F5AD402FADD03DB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 171D85C8A9D5434FBBAF9CBF;
+			remoteInfo = src;
+		};
+		557F873EC2C6461A8B47F8B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E196AC5F5AD402FADD03DB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73965A9C4F0C4B4889F7A7C8;
+			remoteInfo = ZERO_CHECK;
+		};
+		5DD90462ED7045DFBFBE7FE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E196AC5F5AD402FADD03DB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73965A9C4F0C4B4889F7A7C8;
+			remoteInfo = ZERO_CHECK;
+		};
+		77D8CC9D794C46EA86C6CB63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E196AC5F5AD402FADD03DB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 171D85C8A9D5434FBBAF9CBF;
+			remoteInfo = src;
+		};
+		95E336FB82524F1E8EAC7124 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E196AC5F5AD402FADD03DB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73965A9C4F0C4B4889F7A7C8;
+			remoteInfo = ZERO_CHECK;
+		};
+		B11D46B3105C4B8F91C7DD84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E196AC5F5AD402FADD03DB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73965A9C4F0C4B4889F7A7C8;
+			remoteInfo = ZERO_CHECK;
+		};
+		E12FF243D57340659770F6FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E196AC5F5AD402FADD03DB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9FB4643D44246F2B4AE8870;
+			remoteInfo = tests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C6154C2D73346498AF090DF /* SrcMain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SrcMain.cpp; path = src/SrcMain.cpp; sourceTree = SOURCE_ROOT; };
+		1BC9037ECA564E53BCEDD379 /* StudentTests.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = StudentTests.cpp; path = tests/StudentTests.cpp; sourceTree = SOURCE_ROOT; };
+		25BDF088132E4BFFA4C4EE6D /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2FC700270CCC43D5B4FDF6DA /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		33C328CFD0A9435A83310E94 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		39A89386DA5D4C989608E568 /* Main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = Main.cpp; sourceTree = SOURCE_ROOT; };
+		4DB189F4FC35422688731821 /* SrcMain.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SrcMain.h; path = src/SrcMain.h; sourceTree = SOURCE_ROOT; };
+		5B7B57E2239A32C80018F5B5 /* pa7-tests.postman_collection.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pa7-tests.postman_collection.json"; sourceTree = "<group>"; };
+		86E597F13D904D7DBF4348F3 /* libsrc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libsrc.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2BB62367CCF47F395E0D760 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = tests/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C3F725EC610C4450B5A3EC2A /* Catch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Catch.cpp; path = tests/Catch.cpp; sourceTree = SOURCE_ROOT; };
+		F82FFD7DD67D40049FFD94E1 /* main */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = main; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0144AD328F49F786923E0A /* tests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = tests; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		139B5BDB750B4AA3BA3F181E /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		2555DD31E0FB4B95BB10C38B /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				139B5BDB750B4AA3BA3F181E /* CMake Rules */,
+				25BDF088132E4BFFA4C4EE6D /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		3938996C5CEC4915A514A456 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				A0276D856C2E4AF592659AEC /* Source Files */,
+				33C328CFD0A9435A83310E94 /* CMakeLists.txt */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		50BBC7329C224FFF8175E962 = {
+			isa = PBXGroup;
+			children = (
+				5B7B57E1239A32C80018F5B5 /* postman */,
+				3938996C5CEC4915A514A456 /* main */,
+				2555DD31E0FB4B95BB10C38B /* ALL_BUILD */,
+				CA076AF7CF5241F0AD32B245 /* src */,
+				ACF4CD12881B448C93E8147F /* tests */,
+				F337F28C19AF4B1FAA9AF213 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54527D0F08F74C288AEC848F /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C6154C2D73346498AF090DF /* SrcMain.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		5B7B57E1239A32C80018F5B5 /* postman */ = {
+			isa = PBXGroup;
+			children = (
+				5B7B57E2239A32C80018F5B5 /* pa7-tests.postman_collection.json */,
+			);
+			path = postman;
+			sourceTree = "<group>";
+		};
+		7460850DE0994AE585D0B79A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3F725EC610C4450B5A3EC2A /* Catch.cpp */,
+				1BC9037ECA564E53BCEDD379 /* StudentTests.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		A0276D856C2E4AF592659AEC /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				39A89386DA5D4C989608E568 /* Main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		A25D31CEF30644FFB4E68E3C /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DB189F4FC35422688731821 /* SrcMain.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		ACF4CD12881B448C93E8147F /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				7460850DE0994AE585D0B79A /* Source Files */,
+				A2BB62367CCF47F395E0D760 /* CMakeLists.txt */,
+			);
+			name = tests;
+			sourceTree = "<group>";
+		};
+		CA076AF7CF5241F0AD32B245 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				54527D0F08F74C288AEC848F /* Source Files */,
+				A25D31CEF30644FFB4E68E3C /* Header Files */,
+				2FC700270CCC43D5B4FDF6DA /* CMakeLists.txt */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		F337F28C19AF4B1FAA9AF213 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F82FFD7DD67D40049FFD94E1 /* main */,
+				86E597F13D904D7DBF4348F3 /* libsrc.a */,
+				FB0144AD328F49F786923E0A /* tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		171D85C8A9D5434FBBAF9CBF /* src */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFA280761BF841CF86E1E91F /* Build configuration list for PBXNativeTarget "src" */;
+			buildPhases = (
+				83099A64BE74483D825B2864 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EF50B575BAB4C99A62D7552 /* PBXTargetDependency */,
+			);
+			name = src;
+			productName = src;
+			productReference = 86E597F13D904D7DBF4348F3 /* libsrc.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		42BE47981BC3428C998AF7D1 /* main */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0DFB28BA66D4E08A826DBD9 /* Build configuration list for PBXNativeTarget "main" */;
+			buildPhases = (
+				939CD0F6B168447E84D7253A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE3673B6C93A4AACB2F4293E /* PBXTargetDependency */,
+				FF13F7A809C54300903BB45C /* PBXTargetDependency */,
+			);
+			name = main;
+			productName = main;
+			productReference = F82FFD7DD67D40049FFD94E1 /* main */;
+			productType = "com.apple.product-type.tool";
+		};
+		A9FB4643D44246F2B4AE8870 /* tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC0F4387C8884D10A639F8D4 /* Build configuration list for PBXNativeTarget "tests" */;
+			buildPhases = (
+				8DE49A8186214CC583DD9A2A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A26034CC0F21421991975CAE /* PBXTargetDependency */,
+				E8934BDB16034A24A9A7CAD1 /* PBXTargetDependency */,
+			);
+			name = tests;
+			productName = tests;
+			productReference = FB0144AD328F49F786923E0A /* tests */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E196AC5F5AD402FADD03DB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1120;
+			};
+			buildConfigurationList = 0FD8351BB74143758B42E700 /* Build configuration list for PBXProject "pa7" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50BBC7329C224FFF8175E962;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				446AF86391354B0CA2AB922B /* ALL_BUILD */,
+				73965A9C4F0C4B4889F7A7C8 /* ZERO_CHECK */,
+				42BE47981BC3428C998AF7D1 /* main */,
+				171D85C8A9D5434FBBAF9CBF /* src */,
+				A9FB4643D44246F2B4AE8870 /* tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50DFE3C28C344644A27F1175 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chunyangmou/git_repos/pa7-mouchunyang -f /Users/chunyangmou/git_repos/pa7-mouchunyang/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		703FCF335F0B41DB8A784016 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chunyangmou/git_repos/pa7-mouchunyang -f /Users/chunyangmou/git_repos/pa7-mouchunyang/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83099A64BE74483D825B2864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F03DC1440FD94FB89897EAB7 /* SrcMain.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE49A8186214CC583DD9A2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED304920C7C4399A60EBB53 /* Catch.cpp in Sources */,
+				653784D386A54D8E9832B305 /* StudentTests.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939CD0F6B168447E84D7253A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9FD41A5A73942C28ACA2682 /* Main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EF50B575BAB4C99A62D7552 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73965A9C4F0C4B4889F7A7C8 /* ZERO_CHECK */;
+			targetProxy = 95E336FB82524F1E8EAC7124 /* PBXContainerItemProxy */;
+		};
+		760E4D550CC1424B96971CD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42BE47981BC3428C998AF7D1 /* main */;
+			targetProxy = 0ED80D808E2F4269AA559F16 /* PBXContainerItemProxy */;
+		};
+		7AA128EF9EE546998AEFF79A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 171D85C8A9D5434FBBAF9CBF /* src */;
+			targetProxy = 77D8CC9D794C46EA86C6CB63 /* PBXContainerItemProxy */;
+		};
+		96DCFABC0516400EA2868138 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9FB4643D44246F2B4AE8870 /* tests */;
+			targetProxy = E12FF243D57340659770F6FE /* PBXContainerItemProxy */;
+		};
+		99CD4F43A5904291BB688E44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73965A9C4F0C4B4889F7A7C8 /* ZERO_CHECK */;
+			targetProxy = B11D46B3105C4B8F91C7DD84 /* PBXContainerItemProxy */;
+		};
+		A26034CC0F21421991975CAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 171D85C8A9D5434FBBAF9CBF /* src */;
+			targetProxy = 54FBD713B74D42A5A7EDC01D /* PBXContainerItemProxy */;
+		};
+		DE3673B6C93A4AACB2F4293E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 171D85C8A9D5434FBBAF9CBF /* src */;
+			targetProxy = 50FEF33E599C423B9E3D90FB /* PBXContainerItemProxy */;
+		};
+		E8934BDB16034A24A9A7CAD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73965A9C4F0C4B4889F7A7C8 /* ZERO_CHECK */;
+			targetProxy = 5DD90462ED7045DFBFBE7FE7 /* PBXContainerItemProxy */;
+		};
+		FF13F7A809C54300903BB45C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73965A9C4F0C4B4889F7A7C8 /* ZERO_CHECK */;
+			targetProxy = 557F873EC2C6461A8B47F8B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11BD211F628A429E97E6CD83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chunyangmou/git_repos/pa7-mouchunyang";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		12BA6381AA944ED99FAB267B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/chunyangmou/git_repos/pa7-mouchunyang/build";
+			};
+			name = Release;
+		};
+		1ADF90F10D58406DB59013BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/chunyangmou/git_repos/pa7-mouchunyang/src";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++14'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/chunyangmou/git_repos/pa7-mouchunyang/src/Release/libsrc.a",
+					/usr/local/lib/libcpprest.dylib,
+					/usr/local/lib/libboost_random.dylib,
+					/usr/local/lib/libboost_system.dylib,
+					"/usr/local/lib/libboost_thread-mt.dylib",
+					/usr/local/lib/libboost_filesystem.dylib,
+					/usr/local/lib/libboost_chrono.dylib,
+					"/usr/local/lib/libboost_atomic-mt.dylib",
+					/usr/local/lib/libboost_date_time.dylib,
+					/usr/local/lib/libboost_regex.dylib,
+					/usr/local/opt/openssl/lib/libssl.dylib,
+					/usr/local/opt/openssl/lib/libcrypto.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chunyangmou/git_repos/pa7-mouchunyang/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		1E54B6FE64BC4E1AAB59E935 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chunyangmou/git_repos/pa7-mouchunyang";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		2DC6089431D84A96BE9F80B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/chunyangmou/git_repos/pa7-mouchunyang/src";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++14'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/chunyangmou/git_repos/pa7-mouchunyang/src/Release/libsrc.a",
+					/usr/local/lib/libcpprest.dylib,
+					/usr/local/lib/libboost_random.dylib,
+					/usr/local/lib/libboost_system.dylib,
+					"/usr/local/lib/libboost_thread-mt.dylib",
+					/usr/local/lib/libboost_filesystem.dylib,
+					/usr/local/lib/libboost_chrono.dylib,
+					"/usr/local/lib/libboost_atomic-mt.dylib",
+					/usr/local/lib/libboost_date_time.dylib,
+					/usr/local/lib/libboost_regex.dylib,
+					/usr/local/opt/openssl/lib/libssl.dylib,
+					/usr/local/opt/openssl/lib/libcrypto.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chunyangmou/git_repos/pa7-mouchunyang";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		37455CBD244345B7B03AF06E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					BOOST_RANDOM_DYN_LINK,
+					BOOST_SYSTEM_DYN_LINK,
+					BOOST_ALL_NO_LIB,
+					BOOST_THREAD_DYN_LINK,
+					BOOST_FILESYSTEM_DYN_LINK,
+					BOOST_CHRONO_DYN_LINK,
+					BOOST_ATOMIC_DYN_LINK,
+					BOOST_DATE_TIME_DYN_LINK,
+					BOOST_REGEX_DYN_LINK,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/chunyangmou/git_repos/pa7-mouchunyang/src";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++14'",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = src;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chunyangmou/git_repos/pa7-mouchunyang/src";
+				SYSTEM_HEADER_SEARCH_PATHS = "/usr/local/include /usr/local/opt/openssl/include";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		6948F3119A7342A287756BE7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chunyangmou/git_repos/pa7-mouchunyang";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		6B2DDE20506C42A492B0EB8B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/chunyangmou/git_repos/pa7-mouchunyang/src";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++14'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/chunyangmou/git_repos/pa7-mouchunyang/src/MinSizeRel/libsrc.a",
+					/usr/local/lib/libcpprest.dylib,
+					/usr/local/lib/libboost_random.dylib,
+					/usr/local/lib/libboost_system.dylib,
+					"/usr/local/lib/libboost_thread-mt.dylib",
+					/usr/local/lib/libboost_filesystem.dylib,
+					/usr/local/lib/libboost_chrono.dylib,
+					"/usr/local/lib/libboost_atomic-mt.dylib",
+					/usr/local/lib/libboost_date_time.dylib,
+					/usr/local/lib/libboost_regex.dylib,
+					/usr/local/opt/openssl/lib/libssl.dylib,
+					/usr/local/opt/openssl/lib/libcrypto.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chunyangmou/git_repos/pa7-mouchunyang/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		6E526CC7278D4A048644FDB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/chunyangmou/git_repos/pa7-mouchunyang/src";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++14'  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/chunyangmou/git_repos/pa7-mouchunyang/src/Debug/libsrc.a",
+					/usr/local/lib/libcpprest.dylib,
+					/usr/local/lib/libboost_random.dylib,
+					/usr/local/lib/libboost_system.dylib,
+					"/usr/local/lib/libboost_thread-mt.dylib",
+					/usr/local/lib/libboost_filesystem.dylib,
+					/usr/local/lib/libboost_chrono.dylib,
+					"/usr/local/lib/libboost_atomic-mt.dylib",
+					/usr/local/lib/libboost_date_time.dylib,
+					/usr/local/lib/libboost_regex.dylib,
+					/usr/local/opt/openssl/lib/libssl.dylib,
+					/usr/local/opt/openssl/lib/libcrypto.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chunyangmou/git_repos/pa7-mouchunyang/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		6F6DA3F6493E42F49F9EDD06 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					BOOST_RANDOM_DYN_LINK,
+					BOOST_SYSTEM_DYN_LINK,
+					BOOST_ALL_NO_LIB,
+					BOOST_THREAD_DYN_LINK,
+					BOOST_FILESYSTEM_DYN_LINK,
+					BOOST_CHRONO_DYN_LINK,
+					BOOST_ATOMIC_DYN_LINK,
+					BOOST_DATE_TIME_DYN_LINK,
+					BOOST_REGEX_DYN_LINK,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/chunyangmou/git_repos/pa7-mouchunyang/src";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++14'",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = src;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chunyangmou/git_repos/pa7-mouchunyang/src";
+				SYSTEM_HEADER_SEARCH_PATHS = "/usr/local/include /usr/local/opt/openssl/include";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		707B4E129828430AAF0399FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/chunyangmou/git_repos/pa7-mouchunyang/src";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++14'  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/chunyangmou/git_repos/pa7-mouchunyang/src/Debug/libsrc.a",
+					/usr/local/lib/libcpprest.dylib,
+					/usr/local/lib/libboost_random.dylib,
+					/usr/local/lib/libboost_system.dylib,
+					"/usr/local/lib/libboost_thread-mt.dylib",
+					/usr/local/lib/libboost_filesystem.dylib,
+					/usr/local/lib/libboost_chrono.dylib,
+					"/usr/local/lib/libboost_atomic-mt.dylib",
+					/usr/local/lib/libboost_date_time.dylib,
+					/usr/local/lib/libboost_regex.dylib,
+					/usr/local/opt/openssl/lib/libssl.dylib,
+					/usr/local/opt/openssl/lib/libcrypto.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chunyangmou/git_repos/pa7-mouchunyang";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		73FC3E462A744599A8BC335C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/chunyangmou/git_repos/pa7-mouchunyang/build";
+			};
+			name = RelWithDebInfo;
+		};
+		85CEC8481D554682815D0DBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					BOOST_RANDOM_DYN_LINK,
+					BOOST_SYSTEM_DYN_LINK,
+					BOOST_ALL_NO_LIB,
+					BOOST_THREAD_DYN_LINK,
+					BOOST_FILESYSTEM_DYN_LINK,
+					BOOST_CHRONO_DYN_LINK,
+					BOOST_ATOMIC_DYN_LINK,
+					BOOST_DATE_TIME_DYN_LINK,
+					BOOST_REGEX_DYN_LINK,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/chunyangmou/git_repos/pa7-mouchunyang/src";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++14'",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = src;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chunyangmou/git_repos/pa7-mouchunyang/src";
+				SYSTEM_HEADER_SEARCH_PATHS = "/usr/local/include /usr/local/opt/openssl/include";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		94BD526FC5E34E39A0DD415C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/chunyangmou/git_repos/pa7-mouchunyang/src";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++14'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/chunyangmou/git_repos/pa7-mouchunyang/src/MinSizeRel/libsrc.a",
+					/usr/local/lib/libcpprest.dylib,
+					/usr/local/lib/libboost_random.dylib,
+					/usr/local/lib/libboost_system.dylib,
+					"/usr/local/lib/libboost_thread-mt.dylib",
+					/usr/local/lib/libboost_filesystem.dylib,
+					/usr/local/lib/libboost_chrono.dylib,
+					"/usr/local/lib/libboost_atomic-mt.dylib",
+					/usr/local/lib/libboost_date_time.dylib,
+					/usr/local/lib/libboost_regex.dylib,
+					/usr/local/opt/openssl/lib/libssl.dylib,
+					/usr/local/opt/openssl/lib/libcrypto.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chunyangmou/git_repos/pa7-mouchunyang";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		A051775A5C504844A7B040E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					BOOST_RANDOM_DYN_LINK,
+					BOOST_SYSTEM_DYN_LINK,
+					BOOST_ALL_NO_LIB,
+					BOOST_THREAD_DYN_LINK,
+					BOOST_FILESYSTEM_DYN_LINK,
+					BOOST_CHRONO_DYN_LINK,
+					BOOST_ATOMIC_DYN_LINK,
+					BOOST_DATE_TIME_DYN_LINK,
+					BOOST_REGEX_DYN_LINK,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/chunyangmou/git_repos/pa7-mouchunyang/src";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = src;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chunyangmou/git_repos/pa7-mouchunyang/src";
+				SYSTEM_HEADER_SEARCH_PATHS = "/usr/local/include /usr/local/opt/openssl/include";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		A18B0DC440F8430E9703AAC9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/chunyangmou/git_repos/pa7-mouchunyang/src";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++14'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/chunyangmou/git_repos/pa7-mouchunyang/src/RelWithDebInfo/libsrc.a",
+					/usr/local/lib/libcpprest.dylib,
+					/usr/local/lib/libboost_random.dylib,
+					/usr/local/lib/libboost_system.dylib,
+					"/usr/local/lib/libboost_thread-mt.dylib",
+					/usr/local/lib/libboost_filesystem.dylib,
+					/usr/local/lib/libboost_chrono.dylib,
+					"/usr/local/lib/libboost_atomic-mt.dylib",
+					/usr/local/lib/libboost_date_time.dylib,
+					/usr/local/lib/libboost_regex.dylib,
+					/usr/local/opt/openssl/lib/libssl.dylib,
+					/usr/local/opt/openssl/lib/libcrypto.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chunyangmou/git_repos/pa7-mouchunyang";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		A2BB6D51858B496BA1061BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chunyangmou/git_repos/pa7-mouchunyang";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		AD7BD2F8114A41F498E94DB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/chunyangmou/git_repos/pa7-mouchunyang/build";
+			};
+			name = Debug;
+		};
+		BFDA6D9AE33F4D2A88F31E39 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/chunyangmou/git_repos/pa7-mouchunyang/src";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++14'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/chunyangmou/git_repos/pa7-mouchunyang/src/RelWithDebInfo/libsrc.a",
+					/usr/local/lib/libcpprest.dylib,
+					/usr/local/lib/libboost_random.dylib,
+					/usr/local/lib/libboost_system.dylib,
+					"/usr/local/lib/libboost_thread-mt.dylib",
+					/usr/local/lib/libboost_filesystem.dylib,
+					/usr/local/lib/libboost_chrono.dylib,
+					"/usr/local/lib/libboost_atomic-mt.dylib",
+					/usr/local/lib/libboost_date_time.dylib,
+					/usr/local/lib/libboost_regex.dylib,
+					/usr/local/opt/openssl/lib/libssl.dylib,
+					/usr/local/opt/openssl/lib/libcrypto.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chunyangmou/git_repos/pa7-mouchunyang/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		CFFCC1D3577646328529EF23 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chunyangmou/git_repos/pa7-mouchunyang";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		E3DE26C766F7487E916381A1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chunyangmou/git_repos/pa7-mouchunyang";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		E5522337F9E34DEB93914CDF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/chunyangmou/git_repos/pa7-mouchunyang/build";
+			};
+			name = MinSizeRel;
+		};
+		EBC66053DC8A477D9BC98E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chunyangmou/git_repos/pa7-mouchunyang";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		FD2C76012AFE46E98420AC3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chunyangmou/git_repos/pa7-mouchunyang";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FD8351BB74143758B42E700 /* Build configuration list for PBXProject "pa7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD7BD2F8114A41F498E94DB9 /* Debug */,
+				12BA6381AA944ED99FAB267B /* Release */,
+				E5522337F9E34DEB93914CDF /* MinSizeRel */,
+				73FC3E462A744599A8BC335C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		574D9216D6F247EEA3290C55 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBC66053DC8A477D9BC98E92 /* Debug */,
+				FD2C76012AFE46E98420AC3E /* Release */,
+				E3DE26C766F7487E916381A1 /* MinSizeRel */,
+				6948F3119A7342A287756BE7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		845647A4B6C840BF9F813DBE /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11BD211F628A429E97E6CD83 /* Debug */,
+				A2BB6D51858B496BA1061BF6 /* Release */,
+				CFFCC1D3577646328529EF23 /* MinSizeRel */,
+				1E54B6FE64BC4E1AAB59E935 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CC0F4387C8884D10A639F8D4 /* Build configuration list for PBXNativeTarget "tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E526CC7278D4A048644FDB2 /* Debug */,
+				1ADF90F10D58406DB59013BA /* Release */,
+				6B2DDE20506C42A492B0EB8B /* MinSizeRel */,
+				BFDA6D9AE33F4D2A88F31E39 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D0DFB28BA66D4E08A826DBD9 /* Build configuration list for PBXNativeTarget "main" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				707B4E129828430AAF0399FF /* Debug */,
+				2DC6089431D84A96BE9F80B1 /* Release */,
+				94BD526FC5E34E39A0DD415C /* MinSizeRel */,
+				A18B0DC440F8430E9703AAC9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FFA280761BF841CF86E1E91F /* Build configuration list for PBXNativeTarget "src" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A051775A5C504844A7B040E5 /* Debug */,
+				85CEC8481D554682815D0DBE /* Release */,
+				6F6DA3F6493E42F49F9EDD06 /* MinSizeRel */,
+				37455CBD244345B7B03AF06E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E196AC5F5AD402FADD03DB1 /* Project object */;
+}
