@@ -1,4 +1,4 @@
-# ITP 435 PA7 - Fall 2019 #
+# ITP 435 PA6 - Fall 2019 #
 
 ### EDIT BELOW ###
 Name: Tommy Trojan

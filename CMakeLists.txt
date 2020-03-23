@@ -1,8 +1,8 @@
-# Require CMAKE 3.7 or higher
-cmake_minimum_required(VERSION 3.7)
+# Require CMAKE 3.1 or higher
+cmake_minimum_required(VERSION 3.1)
 
 # Project name
-project(pa7)
+project(pa6)
 
 # Build for C++14
 set(CMAKE_CXX_STANDARD 14)
@@ -19,6 +19,7 @@ else()
 	if ("$ENV{SANITIZE}" STREQUAL "ON")
 		set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fsanitize=address")
 	endif()
+	set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-deprecated-register")
 endif()
 
 # Any source files in this directory

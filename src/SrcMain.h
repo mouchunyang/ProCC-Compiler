@@ -1,5 +1,3 @@
 #pragma once
 
-
-
-void ProcessCommandArgs(int argc, const char* argv[]);
+int ProcessCommandArgs(int argc, const char* argv[]);

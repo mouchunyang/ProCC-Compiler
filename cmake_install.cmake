@@ -1,4 +1,4 @@
-# Install script for directory: /Users/chunyangmou/git_repos/pa7-mouchunyang
+# Install script for directory: /Users/chunyangmou/git_repos/pa6-mouchunyang
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/chunyangmou/git_repos/pa7-mouchunyang/src/cmake_install.cmake")
-  include("/Users/chunyangmou/git_repos/pa7-mouchunyang/tests/cmake_install.cmake")
+  include("/Users/chunyangmou/git_repos/pa6-mouchunyang/src/cmake_install.cmake")
+  include("/Users/chunyangmou/git_repos/pa6-mouchunyang/tests/cmake_install.cmake")
 
 endif()
 
@@ -47,5 +47,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/chunyangmou/git_repos/pa7-mouchunyang/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/chunyangmou/git_repos/pa6-mouchunyang/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

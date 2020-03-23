@@ -1,1 +1,1 @@
-Files log.txt and expected/excep09-log.txt are identical
+Files emit.txt and expected/star.reg.emit.txt are identical

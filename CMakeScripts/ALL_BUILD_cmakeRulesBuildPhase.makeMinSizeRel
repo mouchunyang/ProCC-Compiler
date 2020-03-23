@@ -2,9 +2,9 @@
 # Custom rules for ALL_BUILD
 .SUFFIXES: 
 all: \
-	/Users/chunyangmou/git_repos/pa7-mouchunyang/CMakeFiles/ALL_BUILD
+	/Users/chunyangmou/git_repos/pa6-mouchunyang/CMakeFiles/ALL_BUILD
 
 
-/Users/chunyangmou/git_repos/pa7-mouchunyang/CMakeFiles/ALL_BUILD: 
+/Users/chunyangmou/git_repos/pa6-mouchunyang/CMakeFiles/ALL_BUILD: 
 	echo ""
 	echo Build\ all\ projects

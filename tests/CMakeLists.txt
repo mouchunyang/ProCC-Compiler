@@ -6,6 +6,7 @@ set(HEADER_FILES
 set(SOURCE_FILES
 	Catch.cpp
 	StudentTests.cpp
+	GradedTests.cpp   
 )
 
 # Don't change this
